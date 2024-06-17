@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-07T13:54:01 IST" name="Suite" finished-at="2024-06-07T13:59:13 IST" duration-ms="311647">
+    <groups>
+    </groups>
+    <test started-at="2024-06-07T13:54:01 IST" name="EdgeTest" finished-at="2024-06-07T13:56:36 IST" duration-ms="155012">
+      <class name="TestCases.be_cognizant_testcase">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.be_cognizant_testcase@221a3fa4]" started-at="2024-06-07T13:54:01 IST" name="setUp" finished-at="2024-06-07T13:54:13 IST" duration-ms="11783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://be.cognizant.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUser()[pri:1, instance:TestCases.be_cognizant_testcase@221a3fa4]" started-at="2024-06-07T13:54:13 IST" name="testUser" finished-at="2024-06-07T13:54:22 IST" duration-ms="8424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUser -->
+        <test-method signature="testUserDetails()[pri:2, instance:TestCases.be_cognizant_testcase@221a3fa4]" started-at="2024-06-07T13:54:22 IST" name="testUserDetails" finished-at="2024-06-07T13:54:24 IST" duration-ms="2484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserDetails -->
+        <test-method signature="AroundCognizant()[pri:3, instance:TestCases.be_cognizant_testcase@221a3fa4]" started-at="2024-06-07T13:54:25 IST" name="AroundCognizant" finished-at="2024-06-07T13:54:27 IST" duration-ms="2184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AroundCognizant -->
+        <test-method signature="workonheader()[pri:4, instance:TestCases.be_cognizant_testcase@221a3fa4]" started-at="2024-06-07T13:54:27 IST" name="workonheader" finished-at="2024-06-07T13:54:44 IST" duration-ms="17250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workonheader -->
+        <test-method signature="newsSelect()[pri:5, instance:TestCases.be_cognizant_testcase@221a3fa4]" started-at="2024-06-07T13:54:44 IST" name="newsSelect" finished-at="2024-06-07T13:54:44 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsSelect -->
+        <test-method signature="seeAllNaviagtion()[pri:7, instance:TestCases.be_cognizant_testcase@221a3fa4]" started-at="2024-06-07T13:54:45 IST" name="seeAllNaviagtion" finished-at="2024-06-07T13:54:53 IST" duration-ms="8342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeAllNaviagtion -->
+        <test-method signature="newsValidation()[pri:8, instance:TestCases.be_cognizant_testcase@221a3fa4]" started-at="2024-06-07T13:54:53 IST" name="newsValidation" finished-at="2024-06-07T13:55:14 IST" duration-ms="20543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsValidation -->
+        <test-method signature="seeAllNewsHeader()[pri:9, instance:TestCases.be_cognizant_testcase@221a3fa4]" started-at="2024-06-07T13:55:14 IST" name="seeAllNewsHeader" finished-at="2024-06-07T13:56:25 IST" duration-ms="70934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeAllNewsHeader -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.be_cognizant_testcase@221a3fa4]" started-at="2024-06-07T13:56:25 IST" name="tearDown" finished-at="2024-06-07T13:56:36 IST" duration-ms="11263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.be_cognizant_testcase -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2024-06-07T13:56:37 IST" name="ChromeTest" finished-at="2024-06-07T13:59:13 IST" duration-ms="156249">
+      <class name="TestCases.be_cognizant_testcase">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.be_cognizant_testcase@4722ef0c]" started-at="2024-06-07T13:56:37 IST" name="setUp" finished-at="2024-06-07T13:56:47 IST" duration-ms="10303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://be.cognizant.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUser()[pri:1, instance:TestCases.be_cognizant_testcase@4722ef0c]" started-at="2024-06-07T13:56:47 IST" name="testUser" finished-at="2024-06-07T13:56:56 IST" duration-ms="9089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUser -->
+        <test-method signature="testUserDetails()[pri:2, instance:TestCases.be_cognizant_testcase@4722ef0c]" started-at="2024-06-07T13:56:57 IST" name="testUserDetails" finished-at="2024-06-07T13:56:59 IST" duration-ms="2782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserDetails -->
+        <test-method signature="AroundCognizant()[pri:3, instance:TestCases.be_cognizant_testcase@4722ef0c]" started-at="2024-06-07T13:57:00 IST" name="AroundCognizant" finished-at="2024-06-07T13:57:02 IST" duration-ms="2271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AroundCognizant -->
+        <test-method signature="workonheader()[pri:4, instance:TestCases.be_cognizant_testcase@4722ef0c]" started-at="2024-06-07T13:57:02 IST" name="workonheader" finished-at="2024-06-07T13:57:21 IST" duration-ms="18560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workonheader -->
+        <test-method signature="newsSelect()[pri:5, instance:TestCases.be_cognizant_testcase@4722ef0c]" started-at="2024-06-07T13:57:21 IST" name="newsSelect" finished-at="2024-06-07T13:57:21 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsSelect -->
+        <test-method signature="seeAllNaviagtion()[pri:7, instance:TestCases.be_cognizant_testcase@4722ef0c]" started-at="2024-06-07T13:57:21 IST" name="seeAllNaviagtion" finished-at="2024-06-07T13:57:30 IST" duration-ms="8419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeAllNaviagtion -->
+        <test-method signature="newsValidation()[pri:8, instance:TestCases.be_cognizant_testcase@4722ef0c]" started-at="2024-06-07T13:57:30 IST" name="newsValidation" finished-at="2024-06-07T13:57:51 IST" duration-ms="20785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsValidation -->
+        <test-method signature="seeAllNewsHeader()[pri:9, instance:TestCases.be_cognizant_testcase@4722ef0c]" started-at="2024-06-07T13:57:51 IST" name="seeAllNewsHeader" finished-at="2024-06-07T13:59:01 IST" duration-ms="70406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeAllNewsHeader -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.be_cognizant_testcase@4722ef0c]" started-at="2024-06-07T13:59:02 IST" name="tearDown" finished-at="2024-06-07T13:59:13 IST" duration-ms="11257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.be_cognizant_testcase -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
